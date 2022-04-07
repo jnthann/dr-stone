@@ -1,0 +1,108 @@
+.cartao-personagem{
+    display: none;
+    box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-personagem .cartao-topo{
+    padding: 30px 40px 0;
+}
+
+.cartao-personagem .nome{
+    margin-bottom: 5px;
+}
+
+.cartao-personagem .tipo{
+    font-size: 12px;
+    background-color: #FFFFFF ;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+ }
+
+.cartao-personagem .detalhes{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-personagem .cartao-imagem {
+    width   :350px;
+    height  : 350px;
+}
+
+.cartao-personagem img {
+    max-height: 102%;
+    display: center;
+}
+
+.cartao-personagem .cartao-informacoes{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-personagem .cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+
+}
+
+.cartao-personagem .cartao-informacoes .status, .cartao-personagem .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+.cartao-personagem .cartao-informacoes .status ul li, .cartao-personagem .cartao-informacoes .habilidades ul li{ 
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-personagem.aberto{
+    display: block;
+}
+
+.tipo-Cientista {
+    background-color: #7a552b;
+}
+
+.tipo-Cienceiro {
+    background-color: #ff8800;
+}
+
+.tipo-Lutadora {
+     background-color: #ff0000;
+}
+
+.tipo-Lutador {
+    background-color: #890707;
+}
+
+.tipo-Ilusionista{
+    background-color: blueviolet;
+}
+
+.tipo-Artesão{
+    background-color: cadetblue;
+}
+
+.tipo-Detetive{
+    background-color: rgb(130, 204, 19);
+}
+
+/*
+Cientista       ok
+Cienceiro       ok
+Lutadora        ok
+Lutador         ok
+Ilusionista     ok
+Artesão         ok
+Detetive        ok
+*/

@@ -1,0 +1,39 @@
+.listagem{
+    max-width: 200 px;
+}
+
+.listagem .personagem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #6b727a;
+    color: white;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius:30px ;
+    min-height: 70px;
+    box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out;
+}
+
+.listagem .personagem:hover{
+    transform: scale(1.15);
+}
+
+.listagem .personagem img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listagem .personagem span{
+    padding-right: 20px;
+    
+}
+
+.listagem .personagem.ativo{
+    color: rgb(255, 130, 130);
+    background-color: rgb(47, 46, 46);
+    
+}
